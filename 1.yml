@@ -1,0 +1,100 @@
+1:
+- task id: '1_1'
+  ege type: 1
+  topic:
+  task type id:
+  author: К. Амеличев
+  number kpolyakov: 58
+  task description: |-
+    Посчитайте количество и сумму чисел, находящихся в промежутке [1705, 7474],
+    которые делятся на 11 и не делятся на 19. Запишите в ответе сначала количество,
+    затем сумму.
+  input data:
+  input file:
+  answer: 498 2284029
+  solve text Python: |-
+    None
+  solve file Python:
+  solve text Pascal: |-
+    ﻿// Автор: Зубов Н.С.
+    program n_1;
+    var k,s,i:integer;
+    begin
+      k:=0;
+      s:=0;
+      for i:= 1705 to 7474 do begin
+        if (i mod 11=0) and (i mod 19<>0) then begin
+          inc(k);
+          s:=s+i;
+        end;
+      end;
+      writeln(k,' ',s);
+    end.
+  solve file Pascal: 58.pas
+  solve youtube:
+- task id: '1_2'
+  ege type: 1
+  topic:
+  task type id:
+  author: К. Амеличев
+  number kpolyakov: 59
+  task description: |-
+    Посчитайте количество и сумму чисел, находящихся в промежутке [1213, 8310],
+    которые делятся на 3 и не делятся на 23. Запишите в ответе сначала количество,
+    затем сумму.
+  input data:
+  input file:
+  answer: 2263 10777692
+  solve text Python: |-
+    None
+  solve file Python:
+  solve text Pascal: |-
+    ﻿// Автор: Зубов Н.С.
+    program n_1;
+    var k,s,i:integer;
+    begin
+      k:=0;
+      s:=0;
+      for i:= 1213 to 8310 do begin
+        if (i mod 3=0) and (i mod 23<>0) then begin
+          inc(k);
+          s:=s+i;
+        end;
+      end;
+      writeln(k,' ',s);
+    end.
+  solve file Pascal: 59.pas
+  solve youtube:
+- task id: '1_3'
+  ege type: 1
+  topic:
+  task type id:
+  author: К. Амеличев
+  number kpolyakov: 60
+  task description: |-
+    Посчитайте количество и сумму чисел, находящихся в промежутке [1389, 9345],
+    которые делятся на 2 и не делятся на 19. Запишите в ответе сначала количество,
+    затем сумму.
+  input data:
+  input file:
+  answer: 3769 20230104
+  solve text Python: |-
+    None
+  solve file Python:
+  solve text Pascal: |-
+    ﻿// Автор: Зубов Н.С.
+    program n_1;
+    var k,s,i:integer;
+    begin
+      k:=0;
+      s:=0;
+      for i:= 1389 to 9345 do begin
+        if (i mod 2=0) and (i mod 19<>0) then begin
+          inc(k);
+          s:=s+i;
+        end;
+      end;
+      writeln(k,' ',s);
+    end.
+  solve file Pascal: 60.pas
+  solve youtube:
