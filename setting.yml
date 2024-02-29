@@ -2,9 +2,9 @@ class: 10БДЗ
 current:
 - Белов Максим
 - 02_Февраль
-- 2024.02.19
-- 17-70
-date: 2024.02.19
+- 2024.02.13
+- 17-32
+date: 2024.02.13
 folder_data: C:\Users\Dima\YandexDisk\Школа\ЕГЭ_1
 folder_path: C:\Users\Dima\YandexDisk\Школа
 list_stop_path_name:
@@ -58,6 +58,9 @@ task_list:
     2024.02.26:
     - 17-166
     - 17-168
+    2024.02.27:
+    - 25-206
+    - 25-208
   cw:
   - 1-1
   - 1-2
@@ -71,4 +74,5 @@ task_list:
   - 3-2
   - 3-3
   - 3-4
+time_limit: 0.5
 tmp_folder: C:\Users\Dima\YandexDisk\Школа\tmp

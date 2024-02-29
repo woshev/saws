@@ -1,0 +1,3 @@
+Токен = y0_AgAAAABlD3sVAAtehQAAAAD8isw-AACzAeLFb2BI540PlN6EEGlYaHCUAw
+https://oauth.yandex.ru/client/new
+https://oauth.yandex.ru/verification_code#access_token=y0_AgAAAABlD3sVAAteXwAAAAD8hvjFAACJP73Hs8dMTI8bTB6uEYHBElyCJg&token_type=bearer&expires_in=31536000
